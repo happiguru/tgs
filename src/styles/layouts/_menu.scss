@@ -16,7 +16,8 @@
     justify-content: space-between;
     &__logo {
       img {
-        @include imgCenter(emCal(8, 40), emCal(16, 115));
+        @include imgCenter(emCal(8, 40), emCal(18, 100));
+        border-radius: 50%;
       }
     }
     .navigator {
@@ -75,7 +76,7 @@
             &:after {
               content: "";
               position: absolute;
-              top: 50%;
+              top: 60%;
               left: -100%;
               background-color: rgb(191, 148, 86);
               height: emCal(15, 8);

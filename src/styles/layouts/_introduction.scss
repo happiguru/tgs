@@ -142,7 +142,7 @@
       &.active {
         a {
           &:after {
-            bottom: 0;
+            bottom: 2px;
           }
         }
       }
@@ -155,14 +155,15 @@
         display: block;
         position: relative;
         overflow: hidden;
+        padding-top: 2px;
 
         &:after {
           content: "";
           position: absolute;
-          bottom: -100%;
+          bottom: -50%;
           left: 0;
           background-color: #bf9456;
-          height: emCal(16, 8);
+          height: emCal(16, 4);
           width: 100%;
           z-index: 0;
           transition: $transition;

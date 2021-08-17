@@ -14,7 +14,7 @@ class MyDocument extends Document {
             name="Description"
             content="TGS - Typical Gents Salon"
           />
-          <link rel="icon" href="/fav.png" />
+          <link rel="icon" href="/favicon.ico" />
           <link
             href="https://kit-pro.fontawesome.com/releases/v5.13.0/css/pro.min.css"
             rel="stylesheet"

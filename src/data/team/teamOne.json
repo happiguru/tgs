@@ -2,8 +2,8 @@
   {
     "id": 1,
     "image": "/assets/images/team/teamOne/1.png",
-    "name": "Danielle Welling",
-    "position": "Nail master",
+    "name": "Daniel Welling",
+    "position": "Hair stylist",
     "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
   },
   {
@@ -16,8 +16,8 @@
   {
     "id": 3,
     "image": "/assets/images/team/teamOne/3.png",
-    "name": "Danielle Welling",
-    "position": "Hair stylish",
+    "name": "Raymond Larry",
+    "position": "Hair stylist",
     "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
   }
 ]

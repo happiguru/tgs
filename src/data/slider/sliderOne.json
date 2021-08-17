@@ -2,7 +2,7 @@
   {
     "title": { "main": "The Hair Creation Home" },
     "subTitle": "Where Guys Go For Great Cuts",
-    "image": "/assets/images/slider/SliderOne/1.png",
+    "image": "/assets/images/slider/SliderOne/image.png",
     "btn": {
       "content": "Appointment",
       "color": "red"
@@ -16,7 +16,7 @@
   {
     "title": { "main": "You feel good" },
     "subTitle": "When you look good",
-    "image": "/assets/images/slider/SliderOne/2.png",
+    "image": "/assets/images/slider/SliderOne/slide2.png",
     "btn": {
       "content": "Appointment",
       "color": "red"
@@ -30,7 +30,7 @@
   {
     "title": { "main": "More Than Just A Men's Hairdresser" },
     "subTitle": "Dig the shop. Love the cut",
-    "image": "/assets/images/slider/SliderOne/3.png",
+    "image": "/assets/images/slider/SliderOne/slide3.png",
     "btn": {
       "content": "Appointment",
       "color": "red"

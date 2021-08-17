@@ -17,7 +17,8 @@
       a {
         display: inline-block;
         img {
-          @include imgCenter($width: 100px, $type: contains);
+          @include imgCenter($width: 85px, $type: contains);
+          border-radius: 50%;
         }
       }
       @include mq(md) {

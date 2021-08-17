@@ -23,11 +23,11 @@ export default function IntroductionOne({ data }) {
             <div className="introduction-one__image">
               <div className="introduction-one__image__detail">
                 <img
-                  src="/assets/images/introduction/IntroductionOne/img1.png"
+                  src="/assets/images/introduction/IntroductionOne/about1.png"
                   alt="background"
                 />
                 <img
-                  src="/assets/images/introduction/IntroductionOne/img2.png"
+                  src="/assets/images/introduction/IntroductionOne/about2.png"
                   alt="background"
                 />
               </div>
@@ -37,7 +37,7 @@ export default function IntroductionOne({ data }) {
                     <div ref={bg1} className="wrapper">
                       <img
                         data-depth="0.5"
-                        src="/assets/images/introduction/IntroductionOne/bg1.png"
+                        src="/assets/images/introduction/IntroductionOne/portfolio-image-6-800x600.jpg"
                         alt="background"
                       />
                     </div>
@@ -48,7 +48,7 @@ export default function IntroductionOne({ data }) {
                         data-depth="0.3"
                         data-invert-x
                         data-invert-y
-                        src="/assets/images/introduction/IntroductionOne/bg2.png"
+                        src="/assets/images/introduction/IntroductionOne/portfolio-image-5-800x600.jpg"
                         alt="background"
                       />
                     </div>
