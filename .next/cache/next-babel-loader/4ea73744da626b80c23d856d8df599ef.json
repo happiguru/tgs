@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { WISHLIST } from \"../variables\";\nexport const addToWishlist = product => ({\n  type: WISHLIST.ADD_TO_WISHLIST,\n  product\n});\nexport const removeFromWishlist = productId => ({\n  type: WISHLIST.REMOVE_FROM_WISHLIST,\n  productId\n});","map":null,"metadata":{},"sourceType":"module"}

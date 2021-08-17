@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Haircuts & Styling",
+    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "bigImgSrc": "/assets/images/contact/1_1.png",
+    "smallImgSrc": "/assets/images/contact/1.png"
+  },
+  {
+    "title": "Beard Shave & Trim",
+    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "bigImgSrc": "/assets/images/contact/2_1.png",
+    "smallImgSrc": "/assets/images/contact/2.png"
+  },
+  {
+    "title": "Maincure & Pedicure",
+    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "bigImgSrc": "/assets/images/contact/3_1.png",
+    "smallImgSrc": "/assets/images/contact/3.png"
+  },
+  {
+    "title": "Face Spa & Foot Spa",
+    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "bigImgSrc": "/assets/images/contact/3_1.png",
+    "smallImgSrc": "/assets/images/contact/3.png"
+  },
+  {
+    "title": "Head Oil Massage",
+    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "bigImgSrc": "/assets/images/contact/3_1.png",
+    "smallImgSrc": "/assets/images/contact/3.png"
+  },
+  {
+    "title": "Hair Treatment & Coloring",
+    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "bigImgSrc": "/assets/images/contact/4_1.png",
+    "smallImgSrc": "/assets/images/contact/4.png"
+  },
+  {
+    "title": "Wax & Keratin",
+    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "bigImgSrc": "/assets/images/contact/3_1.png",
+    "smallImgSrc": "/assets/images/contact/3.png"
+  }
+]

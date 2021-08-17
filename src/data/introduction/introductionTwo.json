@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Haircuts & Styling",
+    "videoPoster": "/assets/images/introduction/IntroductionTwo/1.png",
+    "videoSrc": "https://www.youtube.com/embed/80e0QHPYRG4"
+  },
+  {
+    "name": "Beard Shave & Trim",
+    "videoPoster": "/assets/images/introduction/IntroductionTwo/2.png",
+    "videoSrc": "https://www.youtube.com/embed/xn7jfVWWSio"
+  },
+  {
+    "name": "Maincure & Pedicure",
+    "videoPoster": "/assets/images/introduction/IntroductionTwo/3.png",
+    "videoSrc": "https://www.youtube.com/embed/K3M-czGNUCg"
+  },
+  {
+    "name": "Face Spa & Foot Spa",
+    "videoPoster": "/assets/images/introduction/IntroductionTwo/3.png",
+    "videoSrc": "https://www.youtube.com/embed/K3M-czGNUCg"
+  },
+  {
+    "name": "Head Oil Massage",
+    "videoPoster": "/assets/images/introduction/IntroductionTwo/3.png",
+    "videoSrc": "https://www.youtube.com/embed/K3M-czGNUCg"
+  },
+  {
+    "name": "Hair Treatment & Coloring",
+    "videoPoster": "/assets/images/introduction/IntroductionTwo/4.png",
+    "videoSrc": "https://www.youtube.com/embed/hoPiGLf0ICA"
+  },
+  {
+    "name": "Waxing & Keratin",
+    "videoPoster": "/assets/images/introduction/IntroductionTwo/3.png",
+    "videoSrc": "https://www.youtube.com/embed/K3M-czGNUCg"
+  }
+]

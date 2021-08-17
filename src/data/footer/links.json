@@ -1,0 +1,14 @@
+{
+  "accountLinks": [
+    { "name": "My account", "to": "#" }
+  ],
+  "informationLinks": [
+    { "name": "About us", "to": "/other/about" },
+    { "name": "Careers", "to": "/other/contact" }
+  ],
+  "creditLinks": [
+    { "name": "Privacy Policy", "to": "/other/contact" },
+    { "name": "Terms & Condition", "to": "/other/contact" },
+    { "name": "Site map", "to": "/other/contact" }
+  ]
+}

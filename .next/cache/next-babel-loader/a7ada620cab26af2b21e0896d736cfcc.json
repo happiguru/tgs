@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from \"react\";\nimport MenuOne from \"./Menu/MenuOne\";\nimport TopNavOne from \"./TopNav/TopNavOne\";\nexport default function HeaderOne(props) {\n  return __jsx(React.Fragment, null, __jsx(TopNavOne, props), __jsx(MenuOne, props));\n}","map":null,"metadata":{},"sourceType":"module"}

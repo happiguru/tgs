@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Home",
+    "to": "/homepages/homepage1",
+    "subMenu": [
+      
+    ]
+  },
+  
+  { "title": "Services", "to": "/other/services" },
+  { "title": "About", "to": "/other/about" },
+  { "title": "Contact", "to": "/other/contact" }
+]
