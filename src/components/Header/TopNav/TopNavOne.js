@@ -13,7 +13,7 @@ export default function TopNavOne({ container }) {
         <div className="top-nav__wrapper">
           <SocialIcons className="-white" />
           <p className="top-nav__wrapper__promo">
-              <a className="top-nav__auth"> <i className="far fa-envelope"></i><span className="pl-2">info@typicalgentssaloon.ae</span></a>
+              <a className="top-nav__auth"> <i className="far fa-envelope"></i><span className="pl-2">booking@typicalgentssaloon.ae</span></a>
           </p>
           <div className="top-nav__wrapper__selectors">
             <Link href={process.env.PUBLIC_URL + "#"}>
