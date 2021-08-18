@@ -1,44 +1,58 @@
 [
   {
     "title": "Haircuts & Styling",
-    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "description": "We are a Modern Barber Shop, We pride ourselves on Masterful Barber Haircuts and Shaves for Men. Our Barbers are accomplished in their craft, specializing in modern and traditional barbering.",
     "bigImgSrc": "/assets/images/contact/1_1.jpg",
-    "smallImgSrc": "/assets/images/contact/1.jpg"
+    "smallImgSrc": "/assets/images/contact/1.jpg",
+    "bulletOne": "Professional and Quality Hairstyles",
+    "bulletTwo": "Quality Haircuts"
   },
   {
     "title": "Beard Shave & Trim",
-    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "description": "Our team is made of professional barbers who are dedicated to providing the best value. We remove almost all of the pain from getting a beard cut or trimmed.",
     "bigImgSrc": "/assets/images/contact/2_1.jpg",
-    "smallImgSrc": "/assets/images/contact/2.jpg"
+    "smallImgSrc": "/assets/images/contact/2.jpg",
+    "bulletOne": "Amazing Beard Shave",
+    "bulletTwo": "Perfect Beard Trim"
   },
   {
     "title": "Maincure & Pedicure",
-    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "description": "Let your overworked hands be groomed with love and care to restore their younger and fresher look. Whether you choose to go Classic or Express Manicure, your hands, fingernails and cuticles will look neat and appropriate for a serious professional.",
     "bigImgSrc": "/assets/images/contact/3_1.png",
-    "smallImgSrc": "/assets/images/contact/3.png"
+    "smallImgSrc": "/assets/images/contact/3.png",
+    "bulletOne": "Administer Soft Massage Movements",
+    "bulletTwo": "Best Feet Rejuvenating Treatment"
   },
   {
     "title": "Face Spa & Foot Spa",
-    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "description": "Facials in our salon are exclusively designed to meet your needs. We know that most male skin issues are often shaving-related, such as razor burns, or other conditions like skin dullness and sensitivity.",
     "bigImgSrc": "/assets/images/contact/4_1.png",
-    "smallImgSrc": "/assets/images/contact/4.jpg"
+    "smallImgSrc": "/assets/images/contact/4.jpg",
+    "bulletOne": "Painless deep cleansing",
+    "bulletTwo": "Galvanic anti-ageing (wrinkle reduction) and more"
   },
   {
     "title": "Head Oil Massage",
-    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "description": "If you are suffering of sudden and continous headaches, pressure in the temples and at the back of the head, we have expert professional who are specialize in administering the head massage.",
     "bigImgSrc": "/assets/images/contact/5_1.jpg",
-    "smallImgSrc": "/assets/images/contact/5.jpg"
+    "smallImgSrc": "/assets/images/contact/5.jpg",
+    "bulletOne": "Administering Indian Head Massage",
+    "bulletTwo": "Improved Blood Circulation"
   },
   {
     "title": "Hair Treatment & Coloring",
-    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "description": "We give you the hair care you love with a better look using enhanced formulas. You would actually get back your original color with the help of our seasoned professionals.",
     "bigImgSrc": "/assets/images/contact/6_1.jpg",
-    "smallImgSrc": "/assets/images/contact/6.jpg"
+    "smallImgSrc": "/assets/images/contact/6.jpg",
+    "bulletOne": "Enhanced Formulas",
+    "bulletTwo": "Touch of Gray"
   },
   {
     "title": "Wax & Keratin",
-    "description": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis pendisse ultrices gravida. Risus commodo viverra lacus vel facilisis.",
+    "description": "Keratin Treatment makes your frizzy, dull and curly hair more manageable, giving it a smooth, silky texture and leaving a brilliant, lustrous appeal. With us, rest assured that you are in the right hands with no possibility of any side effects. We ensure you get the best experience.",
     "bigImgSrc": "/assets/images/contact/7_1.jpg",
-    "smallImgSrc": "/assets/images/contact/7.jpg"
+    "smallImgSrc": "/assets/images/contact/7.jpg",
+    "bulletOne": "Keratin Treatment",
+    "bulletTwo": "Full Face Waxing"
   }
 ]

@@ -4,7 +4,7 @@ import Button from "../../Control/Button";
 import classNames from "classnames";
 
 export default function ServiceItem(props) {
-  const { title, bigImgSrc, smallImgSrc, description, order, reverse } = props;
+  const { title, bigImgSrc, smallImgSrc, description, bulletOne, bulletTwo, order, reverse } = props;
   const bg1 = useRef(null);
   const bg2 = useRef(null);
   useEffect(() => {
@@ -83,18 +83,10 @@ export default function ServiceItem(props) {
               </p>
               <ul>
                 <li>
-                  {renderListStyle("Lorem ipsum dolor sit amet, consectetur.")}
+                  {renderListStyle(bulletOne)}
                 </li>
                 <li>
-                  {renderListStyle("Adipiscing elit, sed do eiusmod tempor.")}
-                </li>
-                <li>
-                  {renderListStyle(
-                    "Incididunt ut labore et dolore magna aliqua."
-                  )}
-                </li>
-                <li>
-                  {renderListStyle("Quis ipsum suspendisse ultrices gravida.")}
+                  {renderListStyle(bulletTwo)}
                 </li>
               </ul>
               <Button color="white" action="#" content="Book Now" />

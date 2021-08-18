@@ -20,6 +20,8 @@ export default function services() {
             smallImgSrc={process.env.PUBLIC_URL + item.smallImgSrc}
             description={item.description}
             title={item.title}
+            bulletOne={item.bulletOne}
+            bulletTwo={item.bulletTwo}
             order={formatSingleNumber(index + 1)}
             reverse={index % 2 === 1}
           />
