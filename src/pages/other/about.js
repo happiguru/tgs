@@ -6,8 +6,6 @@ import IntroductionTwo from "../../components/Sections/Introduction/Introduction
 import introductionTwoData from "../../data/pages/about.json";
 import TestimonialOne from "../../components/Sections/Testimonial/TestimonialOne";
 import testimonialOneData from "../../data/testimonial/data.json";
-import Benefits from "../../components/Other/Benefits";
-import IntroductionNine from "../../components/Sections/Introduction/IntroductionNine";
 import InstagramTwo from "../../components/Sections/Instagram/InstagramTwo";
 
 export default function () {

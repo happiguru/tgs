@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/images/testimonial/TestimonialOne/1.png",
+    "image": "/assets/images/testimonial/TestimonialOne/1.jpg",
     "name": "Alexander Ball",
     "city": "New York",
     "review": "I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks! Now, I just need to add on a bit of mascara for length and I am set.",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/images/testimonial/TestimonialOne/2.png",
+    "image": "/assets/images/testimonial/TestimonialOne/2.jpg",
     "name": "Izabel Watt",
     "city": "Michigan",
     "review": "I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks! Now, I just need to add on a bit of mascara for length and I am set.",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/images/testimonial/TestimonialOne/3.png",
+    "image": "/assets/images/testimonial/TestimonialOne/3.jpg",
     "name": "Rachel Regan",
     "city": "Sydney",
     "review": "I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks! Now, I just need to add on a bit of mascara for length and I am set.",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "image": "/assets/images/testimonial/TestimonialOne/4.png",
+    "image": "/assets/images/testimonial/TestimonialOne/4.jpg",
     "name": "Malika Kenny",
     "city": "Ha Noi",
     "review": "I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks! Now, I just need to add on a bit of mascara for length and I am set.",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "image": "/assets/images/testimonial/TestimonialOne/5.png",
+    "image": "/assets/images/testimonial/TestimonialOne/5.jpg",
     "name": "Javier Bender",
     "city": "Tokyo",
     "review": "I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks! Now, I just need to add on a bit of mascara for length and I am set.",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "image": "/assets/images/testimonial/TestimonialOne/7.png",
+    "image": "/assets/images/testimonial/TestimonialOne/7.jpg",
     "name": "Bilaal Gunn",
     "city": "Denver",
     "review": "I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks! Now, I just need to add on a bit of mascara for length and I am set.",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "image": "/assets/images/testimonial/TestimonialOne/8.png",
+    "image": "/assets/images/testimonial/TestimonialOne/8.jpg",
     "name": "Musab O'Sullivan",
     "city": "Paris",
     "review": "I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks! Now, I just need to add on a bit of mascara for length and I am set.",

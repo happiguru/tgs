@@ -24,7 +24,15 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/other/about": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/other/contact": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/other/services": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

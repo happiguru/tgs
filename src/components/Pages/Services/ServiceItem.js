@@ -79,10 +79,7 @@ export default function ServiceItem(props) {
               </div>
               <h2 className="services__item__title">{title}</h2>
               <p className="services__item__description">
-                Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Quis
-                pendisse ultrices gravida. Risus commodo viverra lacus vel
-                facilisis.
+                {description}
               </p>
               <ul>
                 <li>

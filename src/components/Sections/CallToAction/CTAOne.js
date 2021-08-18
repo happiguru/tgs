@@ -59,7 +59,7 @@ export default function CTAOne() {
                     defaultValue=""
                   >
                     <option value="" hidden>
-                      Choose a services
+                      Choose a service
                     </option>
                     {["Spa", "Salon", "Nail"].map((item, index) => (
                       <option key={index} value={item}>
@@ -79,7 +79,7 @@ export default function CTAOne() {
                     defaultValue=""
                   >
                     <option value="" hidden>
-                      Choose a services
+                      Choose a day
                     </option>
                     {["Yesterday", "Today", "Tomorow"].map((item, index) => (
                       <option key={index} value={item}>
@@ -91,7 +91,7 @@ export default function CTAOne() {
                     <span className="input-error">Please choose a date</span>
                   )}
                 </div>
-                <button className="btn -light-red">Appoitment</button>
+                <button className="btn -light-red">Appointment</button>
               </form>
             </div>
           </div>

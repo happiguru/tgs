@@ -38,7 +38,7 @@ export default function InstagramTwo() {
   return (
     <div className="instagram-two">
       <Slider {...settings}>
-        {Array.from(Array(6), (e, i) => {
+        {Array.from(Array(8), (e, i) => {
           return (
             <a
               key={i}
@@ -48,7 +48,7 @@ export default function InstagramTwo() {
               <img
                 src={
                   process.env.PUBLIC_URL +
-                  `/assets/images/instagram/InstagramTwo/${i + 1}.png`
+                  `/assets/images/instagram/InstagramTwo/${i + 1}.jpg`
                 }
                 alt="Instagram image"
               />

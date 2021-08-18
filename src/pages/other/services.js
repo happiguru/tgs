@@ -18,6 +18,7 @@ export default function services() {
             key={index}
             bigImgSrc={process.env.PUBLIC_URL + item.bigImgSrc}
             smallImgSrc={process.env.PUBLIC_URL + item.smallImgSrc}
+            description={item.description}
             title={item.title}
             order={formatSingleNumber(index + 1)}
             reverse={index % 2 === 1}
