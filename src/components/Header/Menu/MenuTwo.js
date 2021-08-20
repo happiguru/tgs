@@ -32,7 +32,7 @@ export default function MenuTwo({ container }) {
                 </li>
               ))}
             </ul>
-            <Link href={process.env.PUBLIC_URL + "/homepages/homepage1"}>
+            <Link href={process.env.PUBLIC_URL + "/main/home"}>
               <a className="menu__wrapper__logo">
                 <img src="/assets/images/logo.png" alt="Logo" />
               </a>

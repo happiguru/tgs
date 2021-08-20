@@ -89,7 +89,7 @@ export default function ServiceItem(props) {
                   {renderListStyle(bulletTwo)}
                 </li>
               </ul>
-              <Button color="white" action="#" content="Book Now" />
+              <Button color="white" action="#cta-section" content="Book Now" />
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ export default function SocialIcons({ className, colored }) {
       <li>
         <a
           style={{ color: colored && "#2463ac" }}
-          href="https://www.facebook.com/"
+          href="https://www.facebook.com/TypicalGentsSalon/"
         >
           <i className="fab fa-facebook-f" />
         </a>
@@ -19,7 +19,7 @@ export default function SocialIcons({ className, colored }) {
       <li>
         <a
           style={{ color: colored && "#dd34c1" }}
-          href="https://instagram.com/"
+          href="https://www.instagram.com/typicalgentssalon/"
         >
           <i className="fab fa-instagram" />
         </a>

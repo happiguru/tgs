@@ -1,7 +1,7 @@
 [
   {
     "title": "Home",
-    "to": "/homepages/homepage1",
+    "to": "/main/home",
     "subMenu": [
       
     ]

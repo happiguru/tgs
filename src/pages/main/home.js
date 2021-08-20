@@ -13,7 +13,7 @@ import TeamOne from "../../components/Sections/Team/TeamOne";
 import teamOneData from "../../data/team/teamOne.json";
 import CTAOne from "../../components/Sections/CallToAction/CTAOne";
 
-export default function homepage1() {
+export default function home() {
   return (
     <LayoutOne title="Homepage 1" data={sliderData} className="-style-1">
       <SliderTwo data={sliderData} className="-style-1" showDots />

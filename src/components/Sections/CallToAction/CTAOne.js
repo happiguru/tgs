@@ -13,6 +13,7 @@ export default function CTAOne() {
     <div
       className="cta -style-1"
       style={{ backgroundImage: 'url("/assets/images/cta/CTAOne/1.png")' }}
+      id="cta-section"
     >
       <div className="container">
         <div className="row">
@@ -61,7 +62,16 @@ export default function CTAOne() {
                     <option value="" hidden>
                       Choose a service
                     </option>
-                    {["Spa", "Salon", "Nail"].map((item, index) => (
+                    {
+                      [
+                        "Haircuts & Styling",
+                        "Beard Shave & Trim",
+                        "Manicure & Pedicure",
+                        "Face Spa & Foot Spa",
+                        "Head Oil Massage",
+                        "Hair Treatment & Coloring",
+                        "Wax & Keratin"
+                      ].map((item, index) => (
                       <option key={index} value={item}>
                         {item}
                       </option>
@@ -72,23 +82,14 @@ export default function CTAOne() {
                   )}
                 </div>
                 <div className="input-validator">
-                  <select
+                <input
+                    type="date"
+                    placeholder=""
                     name="date"
                     ref={register({ required: true })}
-                    className="customed-select"
-                    defaultValue=""
-                  >
-                    <option value="" hidden>
-                      Choose a day
-                    </option>
-                    {["Yesterday", "Today", "Tomorow"].map((item, index) => (
-                      <option key={index} value={item}>
-                        {item}
-                      </option>
-                    ))}
-                  </select>
+                  />
                   {errors.date && (
-                    <span className="input-error">Please choose a date</span>
+                    <span className="input-error">Please choose a valid date</span>
                   )}
                 </div>
                 <button className="btn -light-red">Appointment</button>

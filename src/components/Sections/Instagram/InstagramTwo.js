@@ -42,7 +42,7 @@ export default function InstagramTwo() {
           return (
             <a
               key={i}
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/typicalgentssalon/"
               className="slider-item"
             >
               <img

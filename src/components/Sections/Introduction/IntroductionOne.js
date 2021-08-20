@@ -71,7 +71,7 @@ export default function IntroductionOne({ data }) {
               <Button
                 color={data.btn.color}
                 content={data.btn.content}
-                action="#"
+                action="#cta-section"
               />
             </div>
           </div>
