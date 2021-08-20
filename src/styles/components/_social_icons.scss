@@ -13,10 +13,11 @@
         text-align: center;
         line-height: emCal(16, 45);
         border-radius: 999px;
-        border: 1px solid setShadeColor(light);
+        color: #fff;
+        border: 1px solid setShadeColor(rgb(216 172 70));
         display: inline-block;
         &:hover {
-          background-color: setColor(red);
+          background-color: setColor(rgb(216 172 70));
           color: #fff;
           border-color: transparent;
         }

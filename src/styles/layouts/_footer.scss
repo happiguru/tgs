@@ -1,4 +1,5 @@
 .footer-one {
+  background: rgb(0 0 0 / 93%);
   padding-top: remCal(40);
   &__header {
     display: flex;
@@ -7,7 +8,7 @@
     flex-wrap: wrap;
     padding-bottom: emCal(16, 40);
     margin-bottom: emCal(16, 50);
-    border-bottom: 1px solid setShadeColor(light);
+    border-bottom: 1px solid setShadeColor(rgb(216 172 70));
     @include mq(md) {
       flex-direction: column;
       align-items: center;
@@ -33,19 +34,29 @@
       span {
         margin-right: emCal(16, 15);
         flex: none;
+        color: #fff;
+        font-weight: 600;
       }
       .footer-one-newsletter {
         .mc-form {
           display: flex;
           input {
             @include input($height: emCal(13, 45), $pd: 0 emCal(13, 20));
+            border: 1px solid rgb(216 172 70);
+            border-radius: 3px;
+            color: #fff;
+            background-color: #2f2a2ae0;
           }
           button {
-            @extend .btn, .-dark;
+            @extend .btn;
             padding: 0;
             height: emCal(13, 45);
             width: emCal(13, 45);
             flex: none;
+            background-color: #252020;
+            color: #fff;
+            border-radius: 3px;
+            border: 1px solid rgb(216 172 70);
           }
         }
       }
@@ -83,6 +94,7 @@
   .footer-title {
     @include typo($fsz: 1em, $fw: 600);
     margin-bottom: emCal(16, 40);
+    color: rgb(216 172 70);
     @include mq(lg) {
       margin-bottom: emCal(14, 20);
     }
@@ -101,7 +113,7 @@
             $color: setShadeColor(medium)
           );
           span {
-            color: setShadeColor(dark);
+            color: setShadeColor(light);
           }
           margin-bottom: emCal(16, 10);
           &:last-child {
@@ -167,7 +179,7 @@
     }
   }
   &__footer {
-    background-color: #f7f5f4;
+    background-color: #000;
     padding: 1em 0;
     &__wrapper {
       display: flex;

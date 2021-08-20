@@ -4,20 +4,20 @@
     "image": "/assets/images/team/teamOne/1.png",
     "name": "Daniel Welling",
     "position": "Hair stylist",
-    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+    "quote": "God is like a barber: don't expect him to give you a haircut, you must first get at his Barbershop."
   },
   {
     "id": 2,
     "image": "/assets/images/team/teamOne/2.png",
     "name": "Cali Lees",
     "position": "Administrator",
-    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+    "quote": "Finding a good barber is like finding a good lawyer - you gotta go to the same guy."
   },
   {
     "id": 3,
     "image": "/assets/images/team/teamOne/3.png",
     "name": "Raymond Larry",
     "position": "Hair stylist",
-    "quote": "Ipsum dolor amet, consectetur adipiscing sedo lacus facilisis."
+    "quote": "Being a barber is about taking care of people."
   }
 ]

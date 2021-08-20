@@ -23,6 +23,10 @@
     "/homepages/homepage1": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/other/services": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

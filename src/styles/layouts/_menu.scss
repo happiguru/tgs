@@ -1,5 +1,6 @@
 .menu {
-  background-color: #fff;
+  // background-color: #fff;
+  background: rgb(0 0 0 / 74%);
   @include mq(xl) {
     font-size: 15px;
   }
@@ -37,8 +38,8 @@
         & > ul {
           & > li {
             & > a {
-              color: #fff;
-              font-weight: 400;
+              color: setColor(red);
+              font-weight: 600;
               &:hover {
                 color: #fff;
               }
@@ -64,8 +65,8 @@
           }
           & > a {
             @include link(
-              $color: setShadeColor(dark),
-              $hvr-color: setShadeColor(dark),
+              $color: setShadeColor(rgb(216 172 70)),
+              $hvr-color: setShadeColor(white),
               $fsz: emCal(16, 15),
               $lh: emCal(15, 100),
               $fw: 600
@@ -78,7 +79,7 @@
               position: absolute;
               top: 60%;
               left: -100%;
-              background-color: rgb(191, 148, 86);
+              background-color: rgb(216 172 70);
               height: emCal(15, 8);
               width: 100%;
 
