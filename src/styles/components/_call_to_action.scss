@@ -24,6 +24,7 @@
           $height: emCal(13, 50),
           $fsz: emCal(16, 14)
         );
+        background-color: #2f2a2ae0;
       }
       select {
         @include typo($fsz: emCal(16, 13));
@@ -31,13 +32,14 @@
         width: 100%;
         padding: 0 emCal(13, 20);
         background-position: calc(100% - 20px) center;
+        background-color: #2f2a2ae0;
       }
     }
   }
   &.-style-1 {
     background-attachment: fixed;
     .cta__form {
-      background-color: #fff;
+      background-color: #161b21;
       padding: emCal(16, 50);
       text-align: center;
     }

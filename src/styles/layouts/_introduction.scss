@@ -1,5 +1,6 @@
 .introduction-one {
   margin-bottom: remCal(100);
+  background-color: #161b21;
   @include mq(lg) {
     font-size: 15px;
   }
@@ -155,15 +156,15 @@
         display: block;
         position: relative;
         overflow: hidden;
-        padding-top: 2px;
+        padding-top: -2px;
 
         &:after {
           content: "";
           position: absolute;
           bottom: -50%;
           left: 0;
-          background-color: setColor(red);
-          height: emCal(16, 4);
+          background-color: #fff;
+          height: emCal(24, 4);
           width: 100%;
           z-index: 0;
           transition: $transition;

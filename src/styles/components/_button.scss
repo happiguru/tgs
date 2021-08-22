@@ -20,6 +20,7 @@ $avaiableBtnColors: (
   text-transform: uppercase;
   font-weight: 600;
   border: 0;
+  // color: #fff;
   letter-spacing: emCal(13, 1.3);
   @include prefix(appearance, none);
   &.-disable {
@@ -63,7 +64,7 @@ $avaiableBtnColors: (
   @each $name, $color in $avaiableBtnColors {
     &.-#{$name} {
       background-color: $color;
-      color: #fff;
+      color: #fff !important;
       &:hover {
         background-color: darken($color, 10%);
       }

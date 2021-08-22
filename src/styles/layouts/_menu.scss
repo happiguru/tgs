@@ -316,7 +316,8 @@
     }
   }
   &.-style-3 {
-    background-color: setShadeColor(dark);
+    // background-color: setShadeColor(dark);
+    background: rgba(0, 0, 0, 0.74);
     padding: emCal(16, 15) 0;
     .menu__wrapper {
       &__logo {
@@ -372,7 +373,7 @@
   top: 0;
   right: 0;
   height: 100%;
-  background-color: #fff;
+  background-color: #161b21;
   z-index: 101;
   padding: emCal(16, 40);
   width: emCal(16, 360);

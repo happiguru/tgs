@@ -31,12 +31,14 @@
     p {
       @include typo($fsz: emCal(16, 15), $lh: emCal(16, 26));
       margin-bottom: emCal(15, 25);
+      color: #888;
     }
   }
 }
 
 .team-one {
   margin-bottom: remCal(100);
+  background-color: #161b21;
   .slick-slider {
     margin: 0 emCal(16, -15);
     .slider__item {
