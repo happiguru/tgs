@@ -20,7 +20,11 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/main/home": [
+    "/other/about": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/other/contact": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

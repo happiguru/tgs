@@ -161,7 +161,7 @@
         .menu-icon {
           &.-navbar {
             .bar {
-              background-color: #fff;
+              background-color: #000;
             }
           }
         }
@@ -196,7 +196,7 @@
             height: emCal(16, 2);
             width: emCal(16, 25);
             margin-bottom: emCal(16, 5);
-            background-color: #000;
+            background-color: #000 !important;
             &:last-child {
               margin-bottom: 0;
             }

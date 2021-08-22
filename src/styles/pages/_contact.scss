@@ -26,9 +26,11 @@
       .input-validator {
         margin-bottom: emCal(14, 20);
         input {
+          background-color: #2f2a2ae0 !important;
           @include input($height: emCal(14, 45));
         }
         textarea {
+          background-color: #2f2a2ae0 !important;
           @include input;
           resize: none;
         }
