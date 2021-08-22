@@ -23,10 +23,6 @@
     "/main/home": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
-    ],
-    "/other/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }

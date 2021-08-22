@@ -191,6 +191,7 @@
         &.-navbar {
           display: none;
           margin-right: 0;
+          background-color: setColor(red);
           .bar {
             height: emCal(16, 2);
             width: emCal(16, 25);

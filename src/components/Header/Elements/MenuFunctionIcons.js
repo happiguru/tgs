@@ -25,6 +25,7 @@ export default function MenuFunctionIcons(props) {
               <div className="bar"></div>
               <div className="bar"></div>
               <div className="bar"></div>
+              <div className="bar"></div>
             </a>
           </>
         )}

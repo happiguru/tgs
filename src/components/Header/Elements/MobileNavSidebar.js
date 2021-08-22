@@ -21,7 +21,7 @@ export default function MobileNavSidebar({ showMobileNav, setShowMobileNav }) {
             
             <NavigatorMobile />
             <div className="navigation-sidebar__footer">
-              <a className="navigation-sidebar__footer__auth">Book An Appointment</a>
+              <a className="navigation-sidebar__footer__auth" href="#cta-section">Book An Appointment</a>
               <SocialIcons />
             </div>
           </div>
