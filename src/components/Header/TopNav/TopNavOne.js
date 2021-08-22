@@ -16,8 +16,8 @@ export default function TopNavOne({ container }) {
               <a className="top-nav__auth"> <i className="far fa-envelope"></i><span className="pl-2">booking@typicalgentssalon.ae</span></a>
           </p>
           <div className="top-nav__wrapper__selectors">
-            <Link href={process.env.PUBLIC_URL + "#cta-section"}>
-              <a className="top-nav__auth">Book an Appointment</a>
+            <Link href={process.env.PUBLIC_URL + ""}>
+              <a className="top-nav__auth" href="#cta-section">Book an Appointment</a>
             </Link>
           </div>
         </div>

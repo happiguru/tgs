@@ -27,8 +27,8 @@ export default function TopNavTwo({ container }) {
           <a className="top-nav__auth"> <i className="far fa-envelope"></i><span className="pl-2">booking@typicalgentssalon.ae</span></a>
           </p>
           <div className="top-nav__wrapper__selectors">
-            <Link href={process.env.PUBLIC_URL + "#"}>
-              <a className="top-nav__auth">Book An Appointment</a>
+            <Link href={process.env.PUBLIC_URL + ""}>
+              <a className="top-nav__auth" href="#cta-section">Book An Appointment</a>
             </Link>
           </div>
         </div>

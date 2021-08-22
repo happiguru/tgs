@@ -31,9 +31,9 @@ export default function MenuSix({ container }) {
                 </li>
               ))}
             </ul>
-            <Link href={process.env.PUBLIC_URL + "/homepages/homepage1"}>
+            <Link href={process.env.PUBLIC_URL + "/main/home"}>
               <a className="menu__wrapper__logo">
-                <img src="/assets/images/logo.png" alt="Logo" />
+                <img src="/assets/images/log.jpg" alt="Logo" />
               </a>
             </Link>
             <ul className="navigator_part -right">
