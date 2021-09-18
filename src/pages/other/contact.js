@@ -99,7 +99,7 @@ export default function () {
             <div className="col-12">
               <iframe
                 className="contact-map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231206.5448449273!2d55.17143692418256!3d25.115321685599437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d0b76b18181%3A0x3258cdee3e0825a9!2sAl%20Zain%20Residence!5e0!3m2!1sen!2sae!4v1629209142458!5m2!1sen!2sae"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14457.814846189489!2d55.2061774!3d25.0526068!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5b25a2dd8286db62!2sTypical%20Gents%20Salon!5e0!3m2!1sen!2sae!4v1631981600960!5m2!1sen!2sae"
                 width="100%"
                 height="450"
                 frameBorder="0"
