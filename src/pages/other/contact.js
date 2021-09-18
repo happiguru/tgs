@@ -1,4 +1,7 @@
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
+import { useState } from "react";
+import { send } from 'emailjs-com';
+
 
 import LayoutFour from "../../components/Layout/LayoutFour";
 import InstagramTwo from "../../components/Sections/Instagram/InstagramTwo";
@@ -7,8 +10,32 @@ import ContactInfoItem from "../../components/Pages/Contact/ContactInfoItem";
 import contactData from "../../data/pages/contact.json";
 
 export default function () {
-  const { register, handleSubmit, watch, errors } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const [toSend, setToSend] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const submit = (e) => {
+    e.preventDefault();
+    send(
+      'service_4iidfzt',
+      'template_iy2e5jl',
+      toSend,
+      'user_Esgczx7P8YohGFg3DKtNq'
+    )
+    .then(response => {
+      console.log('Success!', response.status, response.text);
+    })
+    .catch(err => {
+      console.log('Failed....', err);
+    });
+  }
+
+  const handleChange = (e) => {
+    setToSend({...toSend, [e.target.name]: e.target.value });
+  };
+
   return (
     <LayoutFour title="Contact us">
       <Breadcrumb title="Contact us">
@@ -33,30 +60,24 @@ export default function () {
             <div className="col-12 col-md-6">
               <h3 className="contact-title">Get in touch</h3>
               <div className="contact-form">
-                <form onSubmit={handleSubmit(onSubmit)}>
+                <form onSubmit={submit}>
                   <div className="input-validator">
                     <input
                       type="text"
                       name="name"
                       placeholder="Name"
-                      ref={register({ required: true })}
+                      value={toSend.name}
+                      onChange={handleChange}
                     />
-                    {errors.name && (
-                      <span className="input-error">Please provide a name</span>
-                    )}
                   </div>
                   <div className="input-validator">
                     <input
-                      type="text"
+                      type="email"
                       name="email"
                       placeholder="Email"
-                      ref={register({ required: true })}
+                      value={toSend.email}
+                      onChange={handleChange}
                     />
-                    {errors.email && (
-                      <span className="input-error">
-                        Please provide an email
-                      </span>
-                    )}
                   </div>
                   <div className="input-validator">
                     <textarea
@@ -65,9 +86,12 @@ export default function () {
                       cols="30"
                       rows="3"
                       placeholder="Message"
+                      value={toSend.message}
+                      onChange={handleChange}
                     />
                   </div>
-                  <button className="btn -dark">SEND MESSAGE</button>
+                  <button type='submit' className="btn -dark">SEND MESSAGE</button>
+                  
                 </form>
               </div>
             </div>

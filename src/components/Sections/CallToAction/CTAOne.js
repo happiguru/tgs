@@ -1,13 +1,34 @@
-import { useForm } from "react-hook-form";
+import { useState } from "react";
+import { send } from 'emailjs-com';
 
 import SectionTitleOne from "../SectionTitle/SectionTitleOne";
 
 export default function CTAOne() {
-  const { register, handleSubmit, watch, errors } = useForm({
-    mode: "onChange",
+  const [toSend, setToSend] = useState({
+    name: '',
+    phone: '',
+    service: '',
+    date: '',
   });
-  const onSubmit = (data) => {
-    console.log(data);
+
+  const submit = (e) => {
+    e.preventDefault();
+    send(
+      'service_4iidfzt',
+      'template_vvh4s1e',
+      toSend,
+      'user_Esgczx7P8YohGFg3DKtNq'
+    )
+    .then(response => {
+      console.log('Success!', response.status, response.text);
+    })
+    .catch(err => {
+      console.log('Failed....', err);
+    });
+  }
+
+  const handleChange = (e) => {
+    setToSend({...toSend, [e.target.name]: e.target.value });
   };
   return (
     <div
@@ -23,7 +44,7 @@ export default function CTAOne() {
                 Book Service
               </SectionTitleOne>
               <form
-                onSubmit={handleSubmit(onSubmit)}
+                onSubmit={submit}
                 className="cta__form__detail"
               >
                 <div className="input-validator">
@@ -31,33 +52,25 @@ export default function CTAOne() {
                     type="text"
                     placeholder="Your name"
                     name="name"
-                    ref={register({ required: true })}
+                    value={toSend.name}
+                    onChange={handleChange}
                   />
-                  {errors.name && (
-                    <span className="input-error">
-                      Please provide a valid name
-                    </span>
-                  )}
                 </div>
                 <div className="input-validator">
                   <input
                     type="text"
                     placeholder="Your phone"
                     name="phone"
-                    ref={register({ required: true })}
+                    value={toSend.phone}
+                    onChange={handleChange}
                   />
-                  {errors.phone && (
-                    <span className="input-error">
-                      Please provide a valid phone number
-                    </span>
-                  )}
                 </div>
                 <div className="input-validator">
                   <select
                     name="service"
-                    ref={register({ required: true })}
                     className="customed-select"
                     defaultValue=""
+                    onChange={handleChange}
                   >
                     <option value="" hidden>
                       Choose a service
@@ -72,27 +85,22 @@ export default function CTAOne() {
                         "Hair Treatment & Coloring",
                         "Wax & Keratin"
                       ].map((item, index) => (
-                      <option key={index} value={item}>
+                      <option key={index} value={toSend.item}>
                         {item}
                       </option>
                     ))}
                   </select>
-                  {errors.service && (
-                    <span className="input-error">Please choose a service</span>
-                  )}
                 </div>
                 <div className="input-validator">
                 <input
                     type="date"
                     placeholder=""
                     name="date"
-                    ref={register({ required: true })}
+                    value={toSend.date}
+                    onChange={handleChange}
                   />
-                  {errors.date && (
-                    <span className="input-error">Please choose a valid date</span>
-                  )}
                 </div>
-                <button className="btn -light-red">Appointment</button>
+                <button type='submit' className="btn -light-red">Appointment</button>
               </form>
             </div>
           </div>
