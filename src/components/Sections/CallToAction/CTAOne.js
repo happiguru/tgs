@@ -21,6 +21,7 @@ export default function CTAOne() {
     )
     .then(response => {
       console.log('Success!', response.status, response.text);
+      alert('Appointment booked!');
     })
     .catch(err => {
       console.log('Failed....', err);

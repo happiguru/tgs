@@ -26,6 +26,7 @@ export default function () {
     )
     .then(response => {
       console.log('Success!', response.status, response.text);
+      alert('Thank you. We will get back to you soonest!');
     })
     .catch(err => {
       console.log('Failed....', err);
