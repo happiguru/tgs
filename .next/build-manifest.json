@@ -28,10 +28,6 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/main/home": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/other/contact": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
