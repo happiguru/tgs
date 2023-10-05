@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from \"react\";\nimport MenuSix from \"./Menu/MenuSix\";\nexport default function HeaderSix(props) {\n  return __jsx(MenuSix, props);\n}","map":null,"metadata":{},"sourceType":"module"}
